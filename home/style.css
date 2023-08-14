@@ -1,0 +1,121 @@
+ /* Webfont: Yekan */
+@font-face {
+	font-family: 'Yekan';
+	src:	url('./font/Yekan-Font-master/Yekan.eot'); /* IE9 Compat Modes */
+	src:	url('./font/Yekan-Font-master/Yekan.eot') format('embedded-opentype'), /* IE6-IE8 */
+			url('./font/Yekan-Font-master/Yekan.woff2') format('woff2'), /* Modern Browsers */
+			url('./font/Yekan-Font-master/Yekan.woff') format('woff'), /* Modern Browsers */
+			url('./font/Yekan-Font-master/Yekan.otf') format('opentype'), /* Open Type Font */	
+			url('./font/Yekan-Font-master/Yekan.ttf') format('truetype'); /* Safari, Android, iOS */
+	font-weight: normal;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	font-display: auto;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Yekan', 'Times New Roman', Times, serif, sans-serif;
+    
+}
+
+/*navbar*/
+header{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    justify-content: space-between;
+    background: #01c2ac;
+}
+
+.logo img {
+    width: 150px;
+    height: 100px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar a{
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar .sign-out{
+    color: rgb(187, 63, 63);
+}
+
+.logo-name {
+    color: #ffffff;
+}
+
+nav{
+    margin-right: 8px;
+}
+
+body {
+    background: #ffffff;
+}
+
+
+/*Search-box*/
+
+
+.search-box {
+    display: flex;
+    width: 50%;
+    height: 250px;
+    background-color:#01c2ac;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: calc(25%);  
+    margin-bottom: 30px;  
+    margin-left: 0;
+    padding-top: 20px;
+}
+
+/* #searchbar {
+    
+} */
+
+/*footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    margin-top: 10rem;
+    gap: 40rem;
+    justify-content: space-between;
+    background: #01c2ac;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    margin: 1.5rem 0rem 0rem;
+}
+
+.footer-text {
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    padding: 15px;
+    text-align: justify;
+    color: #fafafa;
+}
+
+.footer li {
+    display: flex;
+    list-style-type: none;
+    line-height: 1px;
+}
+
+.footer a {
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+}
